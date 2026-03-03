@@ -43,8 +43,6 @@ public interface OrderMapper {
 
     Double sumByMap(Map map);
 
-    Integer countUserByMap(Map map);
-
     Integer countOrderByStatus(Map map);
 
     List<GoodsSalesDTO> getSalesTop10(LocalDateTime begin, LocalDateTime end);
